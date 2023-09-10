@@ -46,5 +46,39 @@
         </tr>
 
       </table>
+      -----
+      <h3>code snippet</h3>
+      <p>Here is a quote from stack overflow:</p>
+      <blockquote cite="https://stackoverflow.com/questions/69700305/how-do-you-swap-webflows-main-css-to-other-github-hosted-css-based-on-users-ma">
+        Different Stylesheet Pending the Time of Day
+      '''
+      <script>
+        <!--
+        function getStylesheet() {
+              var currentTime = new Date().getHours();
+              if (0 <= currentTime&&currentTime < 5) {
+               document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+              }
+              if (5 <= currentTime&&currentTime < 11) {
+               document.write("<link rel='stylesheet' href='morning.css' type='text/css'>");
+              }
+              if (11 <= currentTime&&currentTime < 16) {
+               document.write("<link rel='stylesheet' href='day.css' type='text/css'>");
+              }
+              if (16 <= currentTime&&currentTime < 22) {
+               document.write("<link rel='stylesheet' href='evening.css' type='text/css'>");
+              }
+              if (22 <= currentTime&&currentTime <= 24) {
+               document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+              }
+      }
         
+        getStylesheet();
+        -->
+        </script>
+        
+        <noscript><link href="main.css" rel="stylesheet"></noscript>
+      
+      '''
+      <a href="https://css-tricks.com/snippets/javascript/different-stylesheet-pending-the-time-of-day/"></a>
 </html>
